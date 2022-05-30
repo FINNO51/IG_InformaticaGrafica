@@ -2,3 +2,4 @@
 
 Es necesario instalar freeglut, GLEW, SDL2 y SDL2_mixer para que funcione.
 ![Ejemplo](image.png)
+![Modelo jerárquico](modelojerarquico.png)
