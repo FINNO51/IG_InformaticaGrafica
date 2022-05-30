@@ -1,0 +1,5 @@
+make src/practicas.cc --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/jordic/Documentos/IG/Practicas/practica6_2'
+touch ./src/caja.cc ./src/camara.cc ./src/cilindro.cc ./src/cono.cc ./src/cubo.cc ./src/ejes.cc ./src/escena.cc ./src/esfera.cc ./src/luz.cc ./src/luzdireccional.cc ./src/luzposicional.cc ./src/malla.cc ./src/manivela.cc ./src/material.cc ./src/musicbox.cc ./src/objply.cc ./src/objrevolucion.cc ./src/ply_reader.cc ./src/practicas.cc ./src/tetraedro.cc ./src/textura.cc ./src/jpg_imagen.cpp ./src/jpg_memsrc.cpp ./src/jpg_readwrite.cpp
+make: Leaving directory '/home/jordic/Documentos/IG/Practicas/practica6_2'
+ 

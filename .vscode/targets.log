@@ -1,0 +1,883 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Dec 20 17:40:51 2021
+
+# Variables
+
+# makefile (from 'makefile', line 12)
+OBJ = $(HOME)/obj
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'makefile', line 11)
+SRC = $(HOME)/src
+# makefile (from 'makefile', line 35)
+glu_flag_macos := /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/jordic/.gtkrc:/home/jordic/.config/gtkrc
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-82e980d1-b22d-4197-8696-315f0adb5f58.sock
+# environment
+KONSOLE_DBUS_SERVICE = :1.34
+# environment
+LC_NAME = es_ES.UTF-8
+# environment
+LC_NUMERIC = es_ES.UTF-8
+# environment
+VSCODE_CWD = /home/jordic/Documentos/IG/Practicas/practica6_2
+# environment
+WINDOWID = 56623111
+# environment
+LC_ADDRESS = es_ES.UTF-8
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'makefile', line 22)
+units_o := ./obj/caja.o ./obj/camara.o ./obj/cilindro.o ./obj/cono.o ./obj/cubo.o ./obj/ejes.o ./obj/escena.o ./obj/esfera.o ./obj/luz.o ./obj/luzdireccional.o ./obj/luzposicional.o ./obj/malla.o ./obj/manivela.o ./obj/material.o ./obj/musicbox.o ./obj/objply.o ./obj/objrevolucion.o ./obj/ply_reader.o ./obj/practicas.o ./obj/tetraedro.o ./obj/textura.o ./obj/jpg_imagen.o ./obj/jpg_memsrc.o ./obj/jpg_readwrite.o
+# makefile (from 'makefile', line 36)
+ld_libs_common := -ljpeg
+# environment
+KONSOLE_VERSION = 210803
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/jordic/Documentos/IG/Practicas/practica6_2
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/jordic
+# environment
+OLDPWD = /home/jordic/Documentos/IG/Practicas/practica6_2
+# environment
+KONSOLE_DBUS_WINDOW = /Windows/1
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/jordic/.config/Code - OSS/CachedData/b3318bc0524af3d74034b8bb8a64df0ccf35549a
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# environment
+LANG = C
+# makefile (from 'makefile', line 26)
+en_linux := Linux
+# environment
+XAUTHORITY = /home/jordic/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+COLORFGBG = 15;0
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/jordic/Documentos/IG/Practicas/practica6_2
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# makefile (from 'makefile', line 38)
+ld_libs_macos := -framework OpenGL -framework SDL2 -framework SDL2_mixer -framework GLUT /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+# environment
+XDG_CONFIG_DIRS = /home/jordic/.config/kdedefaults:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+XDG_SESSION_DESKTOP = KDE
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"Code - OSS","submitURL":"","uploadToServer":false}
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 6506
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/jordi-81fk:@/tmp/.ICE-unix/919,unix/jordi-81fk:/tmp/.ICE-unix/919
+# automatic
+*F = $(notdir $*)
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# environment
+CHROME_DESKTOP = code-oss.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'makefile', line 28)
+sistoper :=  Linux 
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"23fcc0152ea6b53887288b6bf82c9467.es","_translationsConfigFile":"/home/jordic/.config/Code - OSS/clp/23fcc0152ea6b53887288b6bf82c9467.es/tcf.json","_cacheRoot":"/home/jordic/.config/Code - OSS/clp/23fcc0152ea6b53887288b6bf82c9467.es","_resolvedLanguagePackCoreLocation":"/home/jordic/.config/Code - OSS/clp/23fcc0152ea6b53887288b6bf82c9467.es/b3318bc0524af3d74034b8bb8a64df0ccf35549a","_corruptedFile":"/home/jordic/.config/Code - OSS/clp/23fcc0152ea6b53887288b6bf82c9467.es/corrupted.info","_languagePackSupport":true}
+# makefile (from 'makefile', line 10)
+INCLUDE = $(HOME)/include
+# makefile (from 'makefile', line 18)
+exe := ./bin/pracs_exe
+# environment
+BREAKPAD_DUMP_LOCATION = /home/jordic/.config/Code - OSS/exthost Crash Reports
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'makefile', line 31)
+cc_flags_linux := -DLINUX
+# environment
+FUNCNEST = 100
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+PROFILEHOME = /home/jordic/Documentos/IG/Practicas/practica6_2
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = 
+# environment
+LC_MONETARY = es_ES.UTF-8
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = es_ES.UTF-8
+# makefile (from 'makefile', line 23)
+headers := ./include/aux.h ./include/caja.h ./include/camara.h ./include/cilindro.h ./include/cono.h ./include/cubo.h ./include/ejes.h ./include/escena.h ./include/esfera.h ./include/jpg_imagen.hpp ./include/jpg_jinclude.h ./include/jpg_memsrc.hpp ./include/jpg_readwrite.hpp ./include/luz.h ./include/luzdireccional.h ./include/luzposicional.h ./include/malla.h ./include/manivela.h ./include/material.h ./include/musicbox.h ./include/objply.h ./include/objrevolucion.h ./include/ply_reader.h ./include/tetraedro.h ./include/textura.h ./include/tuplasg.h
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+LC_TELEPHONE = es_ES.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# makefile (from 'makefile', line 32)
+cc_flags_macos := -DMACOS
+# makefile (from 'makefile', line 24)
+uname := Linux
+# makefile (from 'makefile', line 27)
+compiler :=  g++
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasma
+# makefile (from 'makefile', line 33)
+cc_flags := -std=c++11 -g -I/usr/include -I./include  -DLINUX
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = firefox
+# environment
+LOGNAME = jordic
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := x
+# makefile (from 'makefile', line 19)
+units_cc := ./src/caja.cc ./src/camara.cc ./src/cilindro.cc ./src/cono.cc ./src/cubo.cc ./src/ejes.cc ./src/escena.cc ./src/esfera.cc ./src/luz.cc ./src/luzdireccional.cc ./src/luzposicional.cc ./src/malla.cc ./src/manivela.cc ./src/material.cc ./src/musicbox.cc ./src/objply.cc ./src/objrevolucion.cc ./src/ply_reader.cc ./src/practicas.cc ./src/tetraedro.cc ./src/textura.cc ./src/jpg_imagen.cpp ./src/jpg_memsrc.cpp ./src/jpg_readwrite.cpp
+# environment
+SYSTEMD_EXEC_PID = 816
+# makefile (from 'makefile', line 39)
+ld_libs := -ljpeg  -lGLEW -lGLU -lglut -lGL -lSDL2 -lSDL2_mixer
+# environment
+EDITOR = nano
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = jordic
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+KONSOLE_DBUS_SESSION = /Sessions/1
+# makefile (from 'makefile', line 25)
+en_macos := 
+# environment
+LC_MEASUREMENT = es_ES.UTF-8
+# environment
+_ = /usr/bin/make
+# environment
+LC_PAPER = es_ES.UTF-8
+# makefile (from 'makefile', line 13)
+BIN = $(HOME)/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'makefile', line 37)
+ld_libs_linux := -lGLEW -lGLU -lglut -lGL -lSDL2 -lSDL2_mixer
+# environment
+COLORTERM = truecolor
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/jordic/.gtkrc-2.0:/home/jordic/.config/gtkrc-2.0
+# makefile (from 'makefile', line 9)
+HOME = .
+# makefile (from 'makefile', line 30)
+cc_flags_common := -std=c++11 -g -I/usr/include -I./include
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-9ec78331-1.62.0-main.sock
+# environment
+TERM = xterm-256color
+# environment
+XDG_SESSION_ID = 2
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SHELL_SESSION_ID = ca5c9001dd8348a1944d779b4014185e
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+KDE_FULL_SESSION = true
+ 
+# environment
+LC_IDENTIFICATION = es_ES.UTF-8
+# variable set hash-table stats:
+# Load=144/1024=14%, Rehash=0, Collisions=35/219=16%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# ./include (device 66310, inode 4590248): 28 files, no impossibilities.
+# src (device 66310, inode 4590251): 26 files, no impossibilities.
+# . (device 66310, inode 4589537): 14 files, no impossibilities.
+# ./src (device 66310, inode 4590251): 26 files, no impossibilities.
+
+# 94 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.cc
+#  recipe to execute (from 'makefile', line 55):
+	$(compiler) -c -o $@ $(cc_flags) $<
+
+obj/%.o: src/%.cpp
+#  recipe to execute (from 'makefile', line 58):
+	$(compiler) -c -o $@ $(cc_flags) $<
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+src/jpg_imagen.cpp: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+src/musicbox.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+obj/objrevolucion.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/luzposicional.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/luz.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+include/jpg_jinclude.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/jpg_memsrc.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/jpg_memsrc.cpp: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+obj/esfera.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/ejes.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/musicbox.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/luzdireccional.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/jpg_readwrite.cpp: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+src/ply_reader.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+src/objply.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+obj/ejes.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/cono.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/ejes.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+obj/material.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/tetraedro.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+obj/caja.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/tetraedro.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/escena.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/luzdireccional.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 64):
+	-rm -f $(OBJ)/*.o $(BIN)/*_exe
+
+# Not a target:
+include/tetraedro.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/luzposicional.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+include/cilindro.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/esfera.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/caja.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+include/objply.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/cubo.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/cubo.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+src/escena.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+obj/objply.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/objrevolucion.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+obj/ply_reader.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/jpg_imagen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/textura.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/escena.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/cubo.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/material.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/jpg_readwrite.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/musicbox.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+obj/cilindro.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/practicas.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+src/esfera.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+init:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 47):
+	-mkdir $(OBJ)
+	-mkdir $(BIN)
+
+src/cono.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+include/textura.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/camara.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+x: init bin/pracs_exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 43):
+	@echo Enlazando para: $(sistoper)
+	$(exe)
+
+# Not a target:
+obj/luz.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/camara.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/ply_reader.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/manivela.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+obj/practicas.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/tuplasg.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+# Not a target:
+include/manivela.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/jpg_imagen.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/cilindro.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+bin/pracs_exe: obj/caja.o obj/camara.o obj/cilindro.o obj/cono.o obj/cubo.o obj/ejes.o obj/escena.o obj/esfera.o obj/luz.o obj/luzdireccional.o obj/luzposicional.o obj/malla.o obj/manivela.o obj/material.o obj/musicbox.o obj/objply.o obj/objrevolucion.o obj/ply_reader.o obj/practicas.o obj/tetraedro.o obj/textura.o obj/jpg_imagen.o obj/jpg_memsrc.o obj/jpg_readwrite.o makefile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 51):
+	@echo $(units_o)
+	$(compiler) -o $(exe)  $(units_o) $(ld_libs)
+
+# Not a target:
+include/caja.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/luzposicional.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/material.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-02 17:54:53.416199979
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+obj/malla.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/luzdireccional.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/cono.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/textura.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+include/luz.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/malla.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/jpg_memsrc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/malla.cc: include/aux.h include/caja.h include/camara.h include/cilindro.h include/cono.h include/cubo.h include/ejes.h include/escena.h include/esfera.h include/jpg_imagen.hpp include/jpg_jinclude.h include/jpg_memsrc.hpp include/jpg_readwrite.hpp include/luz.h include/luzdireccional.h include/luzposicional.h include/malla.h include/manivela.h include/material.h include/musicbox.h include/objply.h include/objrevolucion.h include/ply_reader.h include/tetraedro.h include/textura.h include/tuplasg.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 61):
+	touch $(units_cc)
+
+# Not a target:
+obj/jpg_readwrite.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/camara.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/aux.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: x
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/objrevolucion.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/manivela.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=83/1024=8%, Rehash=0, Collisions=10/151=7%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 153 / storage = 2065 B / avg = 13 B
+# current buf: size = 8162 B / used = 2065 B / count = 153 / avg = 13 B
+
+# strcache performance: lookups = 198 / hit rate = 22%
+# hash-table stats:
+# Load=153/8192=2%, Rehash=0, Collisions=0/198=0%
+# Finished Make data base on Mon Dec 20 17:40:51 2021
+
+ 

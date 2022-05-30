@@ -1,0 +1,10 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/jordic/Documentos/IG/Practicas/practica6_2/bin",
+            "binaryPath": "/home/jordic/Documentos/IG/Practicas/practica6_2/bin/pracs_exe",
+            "binaryArgs": []
+        }
+    ]
+}
